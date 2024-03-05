@@ -1,0 +1,314 @@
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#mainBox{
+    display: flex;
+}
+#box1{
+    margin-top: 5px;
+    height: 600px;
+    width: 80px;
+    background-color:rgb(26, 25, 25);
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+#box2{
+  overflow-y:scroll;
+  overflow-x: hidden;
+    margin-top: 5px;
+    margin-left: 10px;
+  height: 600px;
+    width: 1430px;
+    background-color:rgb(26, 25, 25);
+    border-radius: 5px;
+}
+#ariimg{
+  height: 250px;
+  width: 250px;
+  margin: 20px 20px;
+  border-radius: 5px;                    
+}
+#arijitback{
+  height: 300px;
+  width: 1430px;
+  background:linear-gradient(45deg,grey,skyblue,purple,navy,blue);
+}
+#p1{
+  margin-top: 0px;
+  height: 70px;
+  width: 70px;
+}
+#arijitName{
+  color: white;
+  font-weight: lighter;
+  font-size: 80px;
+  margin-left: 300px;
+  margin-top: -150px;
+}
+#ariUser{
+  color: white;
+  margin: -60px 300px;
+  font-size: 20px;
+}
+#ariIcons{
+  display: flex;
+}
+#shuffle{
+  font-size: 40px;
+  margin-top: 10px;
+  margin-left: 15px;
+  color: rgb(86, 84, 84);
+}
+#follow{
+  width:max-content;
+  height: fit-content;
+  margin-left: 40px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+#Popular{
+  color: rgb(193, 190, 190);
+  font-size: 35px;
+  margin-left: 10px;
+  margin-top: -3px;
+}
+#allData1{
+  display: flex;
+}
+#allData2{
+  display: flex;
+}
+#allData3{
+  display: flex;
+}
+#allData4{
+  display: flex;
+}
+#allData5{
+  display: flex;
+}
+.S1{
+  margin-left: 30px;
+  margin-top: 10px;
+  font-weight: bolder;
+  padding-top: 20px;
+}
+
+#song1{
+  margin-top: -10px;
+  color: white;
+  height: 70px;
+  width: auto;
+  background-color: rgb(26, 25, 25);
+  width: 1430px;
+}
+#satranga{
+  height: 60px;
+  width: 60px;
+  margin-left: 40px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+#songName1{
+  padding-left: 20px;
+  padding-top: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#userNumber{
+  padding-left: 210px;
+  padding-top: 8px;
+}
+#t1{
+  padding-left: 100px;
+  padding-top: 8px;
+}
+#song2{
+  margin-top: 5px;
+  color: white;
+  height: 70px;
+  background-color: rgb(26, 25, 25);
+  width: 1430px;
+}
+#Chaleya{
+  height: 60px;
+  width: 60px;
+  margin-left: 40px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+#songName2{
+  padding-left: 20px;
+  padding-top: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#userNumber2{
+  padding-left: 360px;
+  padding-top: 8px;
+}
+#t2{
+  padding-left: 100px;
+  padding-top: 8px;
+}
+#song3{
+  margin-top: 5px;
+  color: white;
+  height: 70px;
+  background-color:rgb(26, 25, 25);
+  width: 1430px;
+}
+#Heeriye{
+  height: 60px;
+  width: 60px;
+  margin-left: 40px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+#songName3{
+  padding-left: 20px;
+  padding-top: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#userNumber3{
+  padding-left: 210px;
+  padding-top: 8px;
+}
+#t3{
+  padding-left: 100px;
+  padding-top: 8px;
+}
+#song4{
+  color: white;
+  height: 70px;
+  background-color: rgb(26, 25, 25);
+  width: 1430px;
+  margin-top: 5px;
+}
+#Maahi{
+  height: 60px;
+  width: 60px;
+  margin-left: 40px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+#songName4{
+  padding-left: 20px;
+  padding-top: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#userNumber4{
+  padding-left: 360px;
+  padding-top: 8px;
+}
+#t4{
+  padding-left: 100px;
+  padding-top: 8px;
+}
+#song5{
+  color: white;
+  height: 70px;
+  background-color: rgb(26, 25, 25);
+  width: 1430px;
+  margin-top: 5px;
+}
+#Kesariya{
+  height: 60px;
+  width: 60px;
+  margin-left: 40px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+#songName5{
+  padding-left: 20px;
+  padding-top: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#userNumber5{
+  padding-left: 350px;
+  padding-top: 8px;
+}
+#t5{
+  padding-left: 100px;
+  padding-top: 8px;
+}
+#more{
+  color: rgb(176, 175, 175);
+  font-size: 20px;
+  margin-left: 10px;
+}
+#box3{
+    height: 117px;
+    width: 100%;
+    background-color: black;
+    margin-top: 5px;
+}
+#audioPlayer {
+    display: none;
+  }
+
+#progressBar {
+    width: 500px;
+    height: 10px;
+    background-color: lightgray;
+    
+    margin-left: 500px;
+  }
+
+  #progress {
+    width: 0%;
+    height: 100%;
+    background-color: green;
+  }
+#icons{
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+
+
+#nextButton{
+    margin-left: 200px;
+    margin-top: 80px;
+}
+#pauseButton{
+    margin-left: 200px;
+    margin-top: 80px;
+}
+#playButton{
+    margin-left: 200px;
+    margin-top: 80px;
+}
+#prevButton{
+    margin-left: 400px;
+    margin-top: 80px;
+}
+
+
+
+/* <audio id="audioPlayer" controls ontimeupdate="updateProgressBar()">
+  <source src="p1.mp3" type="audio/mpeg">
+</audio>
+
+<div id="progressBar">
+  <div id="progress"></div>
+</div>
+ 
+  <div id="prevButton"><i class="fa-solid fa-backward"></i></div>
+  <div id="playButton"><i class="fa-solid fa-play"></i></div>
+  <div id="pauseButton"><i class="fa-solid fa-pause"></i></div>
+  <div id="nextButton"><i class="fa-solid fa-forward"></i></div> */
+   
